@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "719080734289",
+    "project_id": "draw-shapes-8df56",
+    "storage_bucket": "draw-shapes-8df56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719080734289:android:e41f8dfe01a4d032cbc270",
+        "android_client_info": {
+          "package_name": "com.samsung.drawshapes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719080734289-5fue02slmktuqqmc24anji38ghvhee9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACnI-f72wN4Dm0VB6SYcQril97t9wXLlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719080734289-5fue02slmktuqqmc24anji38ghvhee9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

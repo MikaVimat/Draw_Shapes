@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DrawShapes</string>
+    <string name="clear">Clear</string>
+    <string name="settings">Settings</string>
+    <string name="addColor">Add color</string>
+    <string name="enterName">Please Enter color name</string>
+    <string name="useThisColor">set color</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+</resources>

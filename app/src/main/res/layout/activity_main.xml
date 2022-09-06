@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mostTopLayout"
+
+    >
+
+
+    <com.samsung.drawshapes.Drawing.DrawView
+
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/selectShpaeList"
+        android:layout_below="@id/surfaceView"
+        ></ListView>
+
+    <Button
+        android:layout_below="@id/selectShpaeList"
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:textSize="15sp"
+        android:background="#9D56F4"
+
+        >
+
+    </Button>
+    <Button
+        android:layout_below="@+id/selectShpaeList"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:textSize="15sp"
+        android:background="#9D56F4"
+        >
+
+    </Button>
+
+</RelativeLayout>

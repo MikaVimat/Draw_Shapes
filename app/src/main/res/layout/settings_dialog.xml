@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/enterColorNameEdit"
+        android:layout_alignParentLeft="true"
+        android:text="colorName"
+
+        />
+    <Button
+        android:id="@+id/add_new_color_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:text="@string/addColor"
+        ></Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_colors_list"
+        android:layout_below="@id/add_new_color_button">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/useColorButton"
+        android:text="@string/useThisColor"
+        android:textSize="9sp"
+        android:layout_below="@id/recycler_colors_list"
+        android:layout_alignParentLeft="true"
+
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/delete_button"
+        android:text="@string/delete"
+        android:textSize="9sp"
+        android:layout_below="@id/recycler_colors_list"
+        android:layout_toEndOf="@+id/useColorButton"
+
+
+        >
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cancel_button"
+        android:text="@string/cancel"
+        android:textSize="9sp"
+        android:layout_below="@id/recycler_colors_list"
+        android:layout_toEndOf="@+id/delete_button"
+
+        >
+
+    </Button>
+
+
+</RelativeLayout>
